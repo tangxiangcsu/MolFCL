@@ -16,8 +16,6 @@ from chemprop.torchlight import initialize_exp
 def pretrain(args: Namespace, logger: Logger = None) -> Tuple[float, float]:
     pre_training(args, logger)
 
-
-
 if __name__ == '__main__':
     args = parse_train_args()
     args.data_path = './data/zinc15_250K.csv'
@@ -25,7 +23,7 @@ if __name__ == '__main__':
     args.start_epochs = 0
     args.end_epochs = 50
     args.batch_size = 1024
-    args.exp_id = 'pretrain_2'
+    args.exp_id = 'pretrain'
     args.logger = True
     args.ffn_drop_out = 0.1
     args.dropout = 0.1
