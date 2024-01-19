@@ -1,2 +1,2 @@
 # MolFCL
-Molecular fragment contrastive learning with functional group prompt
+The application of molecular fragment contrastive learning with a novel functional group prompt for molecular property prediction
