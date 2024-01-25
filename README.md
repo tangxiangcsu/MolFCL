@@ -34,7 +34,7 @@ python train.py
 **Note**: 
 - you can open the `train.py` file for parameter</a> modification.
 
-## 🤗 
-If you have any questions please contact me [xiangtang](xingtang@csu.edu.cn)
+## 🤗 email
+If you have any questions please contact me xingtang@csu.edu.cn
 ## 🤝 Cite:
 None
