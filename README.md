@@ -11,7 +11,7 @@ We have provided the pre-training and downstream datasets in the "data" folder.
 #### Code Structures
 There are four parts in the code.
 - **chemprop**: It contains the main files for MolFCL network and training scripts for MolFCL.
-- **data**: It contains the pre-training data splits and downstream dataset.
+- **data**: It contains the pre-training data and downstream dataset splits.
 - **ckpt**: It saves checkpoint for pre-training.
 
 ## 🔬 Dependencies
