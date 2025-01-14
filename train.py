@@ -16,7 +16,6 @@ from chemprop.torchlight import initialize_exp
 
 
 def run_stat(args: Namespace, logger: Logger = None) -> Tuple[float, float]:
-    """k-time independent runs"""
     info = logger.info if logger is not None else print
 
     # Initialize relevant variables
@@ -25,9 +24,8 @@ def run_stat(args: Namespace, logger: Logger = None) -> Tuple[float, float]:
     info(f'Run scaffold {args.runs}')
     args.save_dir = os.path.join(save_dir, f'run_{args.seed}')
     makedirs(args.save_dir)
-    model_scores = run_training(args, args.pretrain, logger)# 设置官能团提示增强
+    model_scores = run_training(args, args.pretrain, logger)
     info(f'{args.runs}-times runs')
-    # Report scores for scaffold-runs
     info(f'Scaffold {args.runs} ==> test {args.metric} = {model_scores:.6f}')
 
     return model_scores
