@@ -400,5 +400,5 @@ def pre_training(args: Namespace, logger: Logger = None) -> List[float]:
                     total_test_loss+=loss.item()
             logger.info(f'{global_step} test loss {total_test_loss/len(test_loader):.4f}')
             snapshot(model1, epoch, dump_folder,'original')
-            snapshot(model2, epoch, dump_folder,'PharmHGT_augment')
+            snapshot(model2, epoch, dump_folder,'augment')
             logger.info(f'[{epoch}/{args.epochs}] train loss {total_loss/len(train_loader):.4f},test loss {total_test_loss/len(test_loader):.4f}')
