@@ -37,4 +37,11 @@ python train.py
 ## 🤗 email
 If you have any questions please contact me xingtang@csu.edu.cn
 ## 🤝 Cite:
-None
+@article{tang2025molfcl,
+  title={MolFCL: predicting molecular properties through chemistry-guided contrastive and prompt learning},
+  author={Tang, Xiang and Zhao, Qichang and Wang, Jianxin and Duan, Guihua},
+  journal={Bioinformatics},
+  pages={btaf061},
+  year={2025},
+  publisher={Oxford University Press}
+}
